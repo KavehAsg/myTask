@@ -25,7 +25,6 @@ export default async function Profile() {
         )
     }
     if (data) {
-
         return (
             <Dropdown>
                 <DropdownTrigger className="text-white">

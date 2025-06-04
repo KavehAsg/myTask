@@ -8,8 +8,10 @@ import getOrders2 from '@/services/getOrders2'
 import { Spinner } from '@heroui/react'
 import { useTranslations } from 'next-intl'
 
+
 function OrderFeaturesCounter() {
 
+    const [error, setError] = useState(false)
     const t = useTranslations("OrdersList");
 
     const [isLoading, setIsLoading] = useState(true)
@@ -22,6 +24,10 @@ function OrderFeaturesCounter() {
 
     useEffect(() => {
         getOrders2().then((data) => {
+            if (data == "error") {
+                setError(true);
+                return
+            }
             setIsLoading(false)
             const counter = {
                 pending: 0,
@@ -38,8 +44,14 @@ function OrderFeaturesCounter() {
         });
     }, []);
 
+    if (error) {
+        return (
+            <div className="text-red-500">Error loading status</div>
+        )
+    }
+
     if (isLoading) {
-       return <Spinner color="default"  labelColor="foreground" />
+        return <Spinner color="default" labelColor="foreground" />
     }
 
     if (!isLoading) {

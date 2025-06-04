@@ -1,6 +1,6 @@
 export async function getProfile() {
     try {
-        const res = await fetch("/.netlify/functions/profile", {
+        const res = await fetch(`${process.env.BASE_URL}/.netlify/functions/profile`, {
             cache: "no-store", 
         })
 
