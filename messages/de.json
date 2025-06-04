@@ -1,0 +1,29 @@
+{
+    "sideBar": {
+        "create": "Neu erstellen",
+        "overview": "Übersicht",
+        "artwork": "Kunstwerk",
+        "orders": "Bestellungen",
+        "customers": "Kunden",
+        "seller": "Verkäufer",
+        "auction": "Auktion",
+        "contract": "Vertrag",
+        "settings": "Einstellungen",
+        "users": "Benutzer"
+    },
+    "OrdersList": {
+        "export": "Exportieren",
+        "create": "Bestellung erstellen",
+        "orderId": "Bestellnummer",
+        "date": "Datum",
+        "customer": "Kunde",
+        "price": "Gesamt",
+        "status": "Bestellstatus",
+        "action": "Aktion",
+        "pending": "Ausstehend",
+        "processing": "In Bearbeitung",
+        "shipped": "Versandt",
+        "delivered": "Zugestellt",
+        "title": "Bestellliste"
+    }
+}

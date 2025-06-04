@@ -1,0 +1,29 @@
+{
+    "sideBar": {
+        "create": "ایجاد",
+        "overview": "بازنگری",
+        "artwork": "هنر",
+        "orders": "سفارشات",
+        "customers": "مشتریان",
+        "seller": "فروشگاه",
+        "auction": "مزایده",
+        "contract": "قراردداد",
+        "settings": "تنظیمات",
+        "users": "کاربران"
+    },
+    "OrdersList": {
+        "export": "استخراج",
+        "create": "سفارش جدید",
+        "orderId": "کد سفارش",
+        "date": "تاریخ",
+        "customer" : "مشتری" ,
+        "price" : "قیمت" , 
+        "status" : "وضعیت سفارش",
+        "action" : "عملیات",
+        "pending" : "در حال انتظار" , 
+        "processing" : "در حال انجام" , 
+        "shipped" : "ارسال شده" ,
+        "delivered" : "تحویل داده شده" ,
+        "title" : "صفحه سفارشات"
+    }
+}

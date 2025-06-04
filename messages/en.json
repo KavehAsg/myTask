@@ -1,0 +1,29 @@
+{
+    "sideBar": {
+        "create": "Create new",
+        "overview": "Overview",
+        "artwork": "Artwork",
+        "orders": "Orders",
+        "customers": "Customers",
+        "seller": "Seller",
+        "auction": "Auction",
+        "contract": "Contract",
+        "settings": "Settings",
+        "users": "Users"
+    },
+    "OrdersList": {
+        "export": "Export",
+        "create": "Create Order",
+        "orderId": "OrderID",
+        "date": "Date",
+        "customer" : "Customer" ,
+        "price" : "Total" , 
+        "status" : "Order Status",
+        "action" : "Action",
+        "pending" : "Pending" , 
+        "processing" : "Processing" , 
+        "shipped" : "Shipped" ,
+        "delivered" : "Delivered" ,
+        "title" : "Orders List"
+    }
+}
