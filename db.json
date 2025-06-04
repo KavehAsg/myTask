@@ -21,7 +21,6 @@
         {
             "label": "users",
             "notification": 0,
-            "link": "/users",
             "icon": "FaUsers"
         },
         {
