@@ -1,6 +1,6 @@
 export async function getMenuListData() {
     try {
-        const res = await fetch("http://localhost:4000/sideBar", {
+        const res = await fetch(`${process.env.BASE_URL}/.netlify/functions/sidebar`, {
             next: {
                 revalidate: 1 
             }

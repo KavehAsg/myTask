@@ -1,7 +1,7 @@
 export async function getProfile() {
     try {
-        const res = await fetch("http://localhost:4000/profile", {
-            cache: "no-store", // ssr
+        const res = await fetch("/.netlify/functions/profile", {
+            cache: "no-store", 
         })
 
         const data = await res.json();

@@ -2,7 +2,7 @@
 import { memo, useEffect, useState } from 'react'
 
 // services - api
-import getOrders from '@/services/getOrders'
+import getOrders2 from '@/services/getOrders2'
 
 // components
 import { Spinner } from '@heroui/react'
@@ -21,7 +21,7 @@ function OrderFeaturesCounter() {
     })
 
     useEffect(() => {
-        getOrders().then((data) => {
+        getOrders2().then((data) => {
             setIsLoading(false)
             const counter = {
                 pending: 0,

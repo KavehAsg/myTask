@@ -1,6 +1,6 @@
 export async function getAlbums() {
     try {
-        const res = await fetch("http://localhost:4000/albums", {
+        const res = await fetch(`${process.env.BASE_URL}/.netlify/functions/albums`, {
             cache : 'force-cache'
         })
 
