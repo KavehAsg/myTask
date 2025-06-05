@@ -17,7 +17,7 @@ export default async function page() {
   const t = await getTranslations("OrdersList");
 
   return (
-    <div className='p-6'>
+    <div className='p-2 lg:p-6'>
       <nav className='flex justify-between w-full'>
         <div className='flex gap- items-center text-gray-500 text-sm'>
           <FaCartShopping className='mt0.5' />

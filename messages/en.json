@@ -26,4 +26,9 @@
         "delivered" : "Delivered" ,
         "title" : "Orders List"
     }
+    ,
+    "art" : {
+        "title" : "Art works - Albums" ,
+        "create" : "Create New"
+    }
 }

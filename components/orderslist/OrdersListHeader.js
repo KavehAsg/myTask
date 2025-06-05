@@ -11,11 +11,11 @@ export default async function OrdersListHeader () {
 
     return (
         <div className='flex w-full justify-between mt-4'>
-            <h2 className='text-2xl font-semibold'>{t("title")}</h2>
+            <h2 className='text-lg lg:text-2xl font-semibold'>{t("title")}</h2>
 
-            <Button className='bg-white border rounded-sm border-black ml-auto mr-4' startContent={<FiUpload />
+            <Button className='bg-white border rounded-sm border-black ml-auto mr-4 rtl:mr-auto rtl:ml-1 lg:rtl:ml-4 text-sm lg:text-base ' startContent={<FiUpload />
             }>{t("export")}</Button>
-            <Button className='bg-gray-900 rounded-sm text-white'>{t("create")}</Button>
+            <Button  className='bg-gray-900 rounded-sm text-white text-sm lg:text-base'>{t("create")}</Button>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { Link as HeroLink } from "@heroui/link"
 export default function HomePage() {
 
   return (
-    <div className='p-10 flex flex-col items-center gap-12 '>
+    <div className='lg:p-10 flex flex-col items-center gap-12 '>
       <div className='text-center'>
 
         <h1 className='text-gray-950 text-2xl font-bold'>My Task</h1>

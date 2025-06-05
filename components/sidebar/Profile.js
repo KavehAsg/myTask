@@ -1,29 +1,23 @@
+'use client'
+
 // components
 import ProfileMenu from "@/components/sidebar/ProfileMenu";
 
-import { Dropdown, DropdownTrigger } from "@heroui/dropdown";
-import { Button } from "@heroui/button";
+import { Dropdown, DropdownTrigger } from "@heroui/react";
+import { Button } from "@heroui/react";
 
-// services - api
-import { getProfile } from "@/services/getProfile"
 
 // icons
 import { FaCaretUp, FaUserCircle } from "react-icons/fa";
 
 
-export default async function Profile() {
-
-    const data = await getProfile();
+export default function Profile({data}) {
     if (data === "error") {
         return (
             <div className="text-red-500">Error loading profile</div>
         )
     }
-    if (!data) {
-        return (
-            <div className="text-yellow-500">No profile data available</div>
-        )
-    }
+    
     if (data) {
         return (
             <Dropdown>

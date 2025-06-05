@@ -25,5 +25,9 @@
         "shipped": "Versandt",
         "delivered": "Zugestellt",
         "title": "Bestellliste"
+    } ,
+    "art" : {
+        "title" : "Kunstwerke - Alben",
+        "create" : "Neu erstellen"
     }
 }
