@@ -56,7 +56,7 @@ function OrderFeaturesCounter() {
 
     if (!isLoading) {
         return (
-            <ul className='flex gap-4 justify-between mt-5'>
+            <ul className='flex gap-4 justify-between mt-5 overflow-x-auto w-full max-w-full'>
                 {Object.keys(ordersStateCounter).map((state) => {
                     return <li key={state} className='border border-black w-full py-6 pl-8 rtl:pr-8 flex justify-start items-center gap-4'>
                         <div className='square w-6 h-6 bg-slate-300'></div>
